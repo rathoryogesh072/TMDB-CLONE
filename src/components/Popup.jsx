@@ -3,7 +3,7 @@ const Popup = ({top,left,content,popEnter,popupLeave}) => {
     <div 
             onMouseEnter={popEnter} 
             onMouseLeave={popupLeave}
-            className="cursor-pointer"
+            className="cursor-pointer z-10"
             style={{
             position: 'absolute',
             top: top + 'px',
